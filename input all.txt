@@ -1,0 +1,327 @@
+
+1.delimiter:
+
+give input statement:a,b; int a=b;
+the delimiters are:
+,is a delimiter
+;is a delimiter
+ is a delimiter
+ is a delimiter
+;is a delimiter
+
+2.comments:
+
+Give the input statement:
+int a,b; //lol
+lol
+
+3.keywords:
+
+give input statement:int a=0; for(int i=0;i<n;i++);
+int is a keyword
+for is a keyword
+int is a keyword
+
+4.arithmetic operator 
+
+give input statement:a-h; b^f;
+- is an arithmetic operator
+^ is an arithmetic operator
+
+5.identifier:
+
+give input statement:int a,b; for; float;
+a is a valid identifier
+b is a valid identifier
+
+6.number :
+
+give input statement:int a,b; b+c+4;
+4 is a number
+
+7.relational operator :
+
+give input statement:a=b; c<b;f==g;
+< is a relational operator
+== is a relational operator
+
+
+8. leftmost derivation:
+
+How many non-Terminal                   : 3
+Insert 3 Single Char as non-Terminal    : S
+A
+D
+
+
+How many Terminal                       : 3
+Insert 3 Single Char as Terminal        : c
+a
+e
+
+
+What is your input Symbol               : S
+
+
+How many production you want to insert  : 3
+
+Insert 3 Production:
+(left_production << space >> right_production << Enter >>)
+ Production 1                           : S cAD
+Production 2                            : A a
+Production 3                            : D e
+
+
+ What is your input String              : cae
+
+
+The converts are                        : S => cAD => caD => cae
+
+ Successful parsing.The string is matched
+
+
+
+9. DFA
+
+
+
+
+10. First:
+
+ How many productions ? :6
+Enter 6 productions epsilon= $ :
+
+E=TD
+D=+TD
+T=FU
+U=*FU
+F=(E)
+F=a
+Element :E
+
+ FIRST(E)= { ( a }
+press 1 to continue : 1
+Element :D
+
+ FIRST(D)= { + }
+press 1 to continue : 1
+Element :T
+
+ FIRST(T)= { ( a }
+press 1 to continue : 1
+Element :U
+
+ FIRST(U)= { * }
+press 1 to continue : 1
+Element :F
+
+ FIRST(F)= { ( a }
+press 1 to continue : 1
+Element :F
+
+ FIRST(F)= { ( a }
+press 1 to continue : 1
+Element :E
+
+ FIRST(E)= { ( a }
+press 1 to continue :
+
+
+
+11. 3adddress code:
+
+enter the statement:a=b+c*d/e
+t1=c*d
+t2=t1/e
+t3=t2+b
+a=t3
+Process returned 0 (0x0)   execution time : 43.334 s
+Press any key to continue
+
+
+
+12. assembly language code for a given three address code:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How many productions ? :6
+Enter 6 productions epsilon= $ :
+
+E=TD
+D=+TD
+T=FU
+U=*FU
+F=(E)
+F=a
+Element :E
+
+ FIRST(E)= { ( a }
+press 1 to continue : 1
+Element :D
+
+ FIRST(D)= { + }
+press 1 to continue : 1
+Element :T
+
+ FIRST(T)= { ( a }
+press 1 to continue : 1
+Element :U
+
+ FIRST(U)= { * }
+press 1 to continue : 1
+Element :F
+
+ FIRST(F)= { ( a }
+press 1 to continue : 1
+Element :F
+
+ FIRST(F)= { ( a }
+press 1 to continue : 1
+Element :E
+
+ FIRST(E)= { ( a }
+press 1 to continue :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
